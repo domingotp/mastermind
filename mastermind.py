@@ -4,7 +4,6 @@ from random import choice,randint
 from colorama import Fore,Style
 from time import sleep
 from os import system, name
-from emoji import emojize
 
 def clear():                                    # Defino clear
     if name == 'nt':                            # Con este clear, podré limpiar el terminal para que el usuario solo vea
@@ -93,7 +92,7 @@ while menu:
         dd=Fore.RED+'Difícil'+Style.RESET_ALL
 
     print(Fore.BLUE+'\n1.- Jugar \U0001F3AE '+Fore.WHITE+'Dificultad: '+dd)                     # Opción 1 jugar + dificultad seleccionada
-    print(Fore.BLUE+emojize('2.- Ajustes :toolbox:')+Fore.CYAN+'(Selección de dificultad)')     # Opción 2 ajustes; Cambiar entre las 3 dificultades + características de cada dificultad
+    print(Fore.BLUE+'2.- Ajustes \U0001F9F0 '+Fore.CYAN+'(Selección de dificultad)')     # Opción 2 ajustes; Cambiar entre las 3 dificultades + características de cada dificultad
     print(Fore.BLUE+'3.- Instrucciones de juego \U0001F9E9')                                    # Instrucciones del juego
     print(Fore.LIGHTRED_EX+'4.- Salir')                                                         # Cerrar el programa
     print(Fore.YELLOW+'Usuario: '.rjust(50,' ')+Fore.LIGHTGREEN_EX+nombre+Style.RESET_ALL)      # Nombre del usuario en el menú

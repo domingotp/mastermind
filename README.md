@@ -38,4 +38,3 @@ Esta versión del juego original Mastermind tiene las siguientes característica
 		* colorama
 		* time
 		* os
-		* emoji
