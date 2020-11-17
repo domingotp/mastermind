@@ -31,11 +31,11 @@ Esta versión del juego original Mastermind tiene las siguientes característica
 - Pistas para acertar la contraseña.
 
 ## Requisitos
-Obligatorios:
+- Obligatorios:
 	- Python 2.7 o superior
 	- Paquetes necesarios:
-		- random
-		- colorama
-		- time
-		- os
-		- emoji
+		* random
+		* colorama
+		* time
+		* os
+		* emoji
