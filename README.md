@@ -29,3 +29,13 @@ Esta versión del juego original Mastermind tiene las siguientes característica
 - Diferentes menús para jugar, cambiar la dificultad, ver las instrucciones del juego, etc.
 
 - Pistas para acertar la contraseña.
+
+## Requisitos
+Obligatorios:
+	- Python 2.7 o superior
+	- Paquetes necesarios:
+		- random
+		- colorama
+		- time
+		- os
+		- emoji
